@@ -2,7 +2,7 @@ def remove_spaces(row: str):
     row = list(row)
     i = 0
     for j in range(len(row)):
-        if row[i] != row[j] or row[i] == row[j] and row[j] != "_" and i != j:
+        if (row[i] != row[j]) or (row[i] == row[j] and row[j] != "_" and i != j):
             i += 1
             row[i] = row[j]
     row[:] = row[:i + 1]
