@@ -1,4 +1,5 @@
 def remove_spaces(row: str):
+    print("prod2")
     row = list(row)
     i = 0
     for j in range(len(row)):
@@ -16,3 +17,4 @@ def remove_spaces(row: str):
 if __name__ == "__main__":
     example = "_On__my___home_world"
     print(remove_spaces(example))
+    print("prod1")
