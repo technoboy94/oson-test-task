@@ -18,3 +18,4 @@ if __name__ == "__main__":
     example = "_On__my___home_world"
     print(remove_spaces(example))
     print("some changes")
+    print("blah)")
